@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "movesmith_ai_video_kit_lite"
+version = "1.0.0"
+name = "MoveSmith Lite - AI Video Camera Kit"
+tagline = "Two cinematic camera moves and first-frame export"
+maintainer = "Zimeng Guo <2269771209@qq.com>"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Animation", "Camera", "Render", "Compositing"]
+
+[permissions]
+files = "Write exported images and movies to folders you choose"

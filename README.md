@@ -1,9 +1,9 @@
-# FrameForge Lite - AI Video Camera Kit for Blender
+# MoveSmith Lite - AI Video Camera Kit for Blender
 
 **Free.** Bakes a cinematic camera move onto your Blender camera and exports the
 first frame as a ready-to-use image for AI video generators.
 
-![Product turntable](https://raw.githubusercontent.com/Guo-0111/frameforge-blender/main/assets/gifs/01-product-turntable.gif)
+![Product turntable](https://raw.githubusercontent.com/Guo-0111/movesmith-blender/main/assets/gifs/01-product-turntable.gif)
 
 ## The problem
 
@@ -14,7 +14,7 @@ reference that pins the geometry down.
 
 Producing those by hand means building a camera rig, keyframing it, rendering
 stills at both ends, setting up a Z pass, and fighting the compositor.
-FrameForge Lite does the first half of that for free.
+MoveSmith Lite does the first half of that for free.
 
 ## What Lite does
 
@@ -36,11 +36,11 @@ made, ready to paste into the generator alongside the image.
 
 ## Install
 
-1. Download `frameforge_ai_video_kit_lite-1.0.0-blender42plus.zip` from
+1. Download `movesmith_ai_video_kit_lite-1.0.0-blender42plus.zip` from
    [Releases](../../releases).
 2. In Blender 4.2 or newer: `Edit > Preferences > Add-ons > Install...` and pick
    the zip.
-3. Enable **FrameForge Lite** and open `3D View > Sidebar > FrameForge`.
+3. Enable **MoveSmith Lite** and open `3D View > Sidebar > MoveSmith`.
 
 For Blender 3.6 to 4.1, use the `-legacy.zip` instead.
 
@@ -70,7 +70,7 @@ restored when the export finishes, and the bake is a single undo.
 | MP4 motion preview, ffmpeg included | - | yes |
 | Batch export, one package per camera | - | yes |
 
-![Depth pass](https://raw.githubusercontent.com/Guo-0111/frameforge-blender/main/assets/gifs/03-depth-pass.gif)
+![Depth pass](https://raw.githubusercontent.com/Guo-0111/movesmith-blender/main/assets/gifs/03-depth-pass.gif)
 
 The depth pass is normalised against the surfaces your camera can actually see,
 not the whole scene bounding box. That matters: normalising against the bounding
